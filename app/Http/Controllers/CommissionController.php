@@ -19,6 +19,8 @@ class CommissionController extends Controller
         //$gets = Commission.all();
     }
 
+
+
     /**
      * Show the form for creating a new resource.
      *

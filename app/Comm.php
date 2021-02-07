@@ -1,9 +1,10 @@
 <?php
+
 namespace App;
+
 use Illuminate\Database\Eloquent\Model;
 
-class Commission extends Model
+class Comm extends Model
 {
     //
-    //protected $fillable = [''];
 }

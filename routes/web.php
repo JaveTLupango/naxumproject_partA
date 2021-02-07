@@ -17,5 +17,5 @@ Route::get('/', function () {
 });
 
 
-Route::resource('commission', 'CommissionController');
+Route::get('comm', 'CommController@getCommission');
 
