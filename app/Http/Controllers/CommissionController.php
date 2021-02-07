@@ -15,8 +15,8 @@ class CommissionController extends Controller
     public function index()
     {
         //
-        $comm = Commission::latest()->pagination(5);
-        return view('commission.index', compact('comm'))->with('i', (request()->input('page', 1) - 1) * 5);
+            return view('commission');
+        //$gets = Commission.all();
     }
 
     /**

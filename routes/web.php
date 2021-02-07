@@ -1,5 +1,6 @@
 <?php
  use App\Http\Controllers\CommissionController;
+ use Illuminate\Support\Facades\Route;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,5 +17,5 @@ Route::get('/', function () {
 });
 
 
-
+Route::resource('commission', 'CommissionController');
 
