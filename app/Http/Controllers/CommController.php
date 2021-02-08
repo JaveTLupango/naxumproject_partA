@@ -18,7 +18,6 @@ class CommController extends Controller
         return view('comm')->with("coms", $ret);//$ret; //view('comm')->with("coms", $ret);// $ret;
     }
 
-
     function sqlString()
     {
         return "SELECT orders.invoice_number,
