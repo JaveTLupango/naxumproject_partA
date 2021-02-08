@@ -18,4 +18,5 @@ Route::get('/', function () {
 
 
 Route::get('comm', 'CommController@getCommission');
+Route::get('distributor', 'CommController@getDistributorList');
 
