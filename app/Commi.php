@@ -4,7 +4,8 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Comm extends Model
+class Commi extends Model
 {
     //
+    protected $table = 'comm';
 }
